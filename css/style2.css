@@ -1,0 +1,66 @@
+
+/** Portfolio style sheet
+*/
+
+.container{
+    position: absolute;
+    display: inline-block;
+    padding: 0px 0px 5px 0px;
+    height: 900px;
+}
+
+div{
+    align-content: center;
+    clear: left;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+.textbox{
+postion: absolute;
+bottom: 20px;
+background-color: #4aaaa5;
+width: 100%;
+color: white;
+}
+
+
+#hangman{
+    height: 250px;
+    width: 250px;
+}
+
+#rpggame{
+    height: 250px;
+    width: 250px;
+ }
+
+ #trivia{
+    height: 250px;
+    width: 250px;
+ }
+
+ #rutgersinfowidget{
+    height: 250px;
+    width: 250px;
+ }
+
+ #rockpaperscissors{
+    height: 250px;
+    width: 250px;
+ }

@@ -1,0 +1,129 @@
+/** About Me/index style sheet
+*/
+header{
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
+    height: 70px;
+}
+
+#picture{
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+#picturewrap{
+    float: left;
+    margin: 5px;
+    color: #777777;
+    font-size: medium;
+}
+
+.some-page-wrapper {
+    display: flex;
+    margin: 15px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .orange-column {
+    height: 100px;
+  }
+  
+  .blue-column {
+
+    height: 100px;
+  }
+  
+  .green-column {
+    height: 100px;
+  }
+
+ul{
+    text-align: right;
+    margin: 0px 288px 10px 0px;
+    padding: 20px 0px 20px 100px;
+    color: gray
+}
+
+li{
+    color: gray;
+    display: inline;
+    clear: left;
+    text-align: right;
+}
+
+
+.navbar-brand{
+    color: white;
+    width: 20%;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 100px;
+    height: 70px;
+    margin: 0px 0px 0px 288px;
+    vertical-align: middle;
+    clear: left;
+    float: left;
+}
+
+hr{
+    width: 100%;
+    color: gray;
+}
+body{
+    text-align:  center;
+    background-image: url('../images/criss-cross.png');
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #4aaaa5
+}
+
+p{
+    color: #777777;
+}
+
+form{
+    color: #777777;
+}
+
+.valuecolor{
+    color: #777777;
+}
+
+.whitebox {
+    background-color: white;
+    overflow: auto;
+    margin: 20px 288px;
+    padding: 20px;
+    width: 960px;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #777777;
+}
+

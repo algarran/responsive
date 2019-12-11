@@ -1,30 +1,145 @@
-/** About Me/index style sheet
-*/
-header{
-    background-color: white;
-    border-bottom: 2px solid #cccccc;
-    height: 70px;
+/** About Me/index style sheet*/
+
+
+.container{
+width: 100%;
+margin-top: 0px;
+
 }
+
 
 #picture{
     height: 200px;
     width: 200px;
     float: left;
+    margin: 20px 20px 5px 20px;
 }
 
-#picturewrap{
-    float: left;
-    margin: 5px;
-    color: #777777;
-    font-size: medium;
+body{
+    text-align:  center;
+    background-image: url('../images/criss-cross.png');
+    margin: 0;
+    padding: 0;
 }
 
-.some-page-wrapper {
+.whitebox {
+    background-color: white;
+    overflow: auto;
+    margin: 20px 288px;
+    padding: 20px;
+    max-width: 960px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    color: silver;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background: #777777;
+}
+
+p{
+    text-indent: 50px;
+    margin: 0px 0px 16px;
+    padding: 0px 20px;
+}
+
+.links{
+    text-align: center;
+    display: inline;
+}
+
+.textbox{
+    width: 100%;
+    height: 40px;
+}
+
+#submit{
+    background-color: #4aaaa5;
+    cursor: pointer;
+    border: none;
+    color: white;
+    height: 30;
+    width: 90;
+}
+
+.navbarText{
+display: inline;
+}
+
+.name {
+    background-color: #4AAAA5;
+    text-align: center;
+    height: 136px;
+    vertical-align: middle;
+    
+}
+#myName{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px 0px 10px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #4aaaa5
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: white;
+    width: 100%;
+}
+
+li{
+    color: gray;
+    display: inline;
+    clear: left;
+}
+
+#hangman{
+    height: 250px;
+    width: 250px;
+}
+
+#rpggame{
+    height: 250px;
+    width: 250px;
+ }
+
+ #trivia{
+    height: 250px;
+    width: 250px;
+ }
+
+ #rutgersinfowidget{
+    height: 250px;
+    width: 250px;
+ }
+
+ #rockpaperscissors{
+    height: 250px;
+    width: 250px;
+ }
+
+ .content-holder {
     display: flex;
     margin: 15px;
   }
   
-  .row {
+.row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -38,18 +153,50 @@ header{
     flex: 1;
   }
   
-  .orange-column {
-    height: 100px;
+  .third-column {
+    height: 580px;
+    width: 250px;
   }
   
-  .blue-column {
+  .second-column {
+    height: 580px;
+    width: 250px;
+  }
+  
+  .first-column {
+    height: 580px;
+    width: 250px;
+  }
 
-    height: 100px;
-  }
-  
-  .green-column {
-    height: 100px;
-  }
+
+/**
+
+header{
+    background-color: white;
+    border-bottom: 2px solid #cccccc;
+    height: 70px;
+}
+
+
+
+p{
+    color: #777777;
+}
+
+form{
+    color: #777777;
+}
+
+.valuecolor{
+    color: #777777;
+}
+
+#picturewrap{
+    float: left;
+    margin: 5px;
+    color: #777777;
+    font-size: medium;
+}
 
 ul{
     text-align: right;
@@ -58,15 +205,9 @@ ul{
     color: gray
 }
 
-li{
-    color: gray;
-    display: inline;
-    clear: left;
-    text-align: right;
-}
 
 
-.navbar-brand{
+.kelsey{
     color: white;
     width: 20%;
     background-color: #4aaaa5;
@@ -83,47 +224,5 @@ hr{
     width: 100%;
     color: gray;
 }
-body{
-    text-align:  center;
-    background-image: url('../images/criss-cross.png');
-    margin: 0;
-    padding: 0;
-}
 
-h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
-    color: #4aaaa5
-}
-
-p{
-    color: #777777;
-}
-
-form{
-    color: #777777;
-}
-
-.valuecolor{
-    color: #777777;
-}
-
-.whitebox {
-    background-color: white;
-    overflow: auto;
-    margin: 20px 288px;
-    padding: 20px;
-    width: 960px;
-}
-
-footer {
-    border-top: 8px solid #4aaaa5;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    text-align: center;
-    background: #777777;
-}
-
+*/

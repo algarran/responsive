@@ -7,6 +7,9 @@ margin-top: 0px;
 
 }
 
+.nav-link{
+    float: left;
+}
 
 #picture{
     height: 200px;
@@ -78,15 +81,15 @@ display: inline;
 .name {
     background-color: #4AAAA5;
     text-align: center;
-    height: 136px;
+    height: 70px;
     vertical-align: middle;
     
 }
+
 #myName{
     color: white;
     margin-left: auto;
     margin-right: auto;
-    padding: 0px 0px 0px 10px;
 }
 
 h2{
@@ -105,8 +108,8 @@ h3{
 
 li{
     color: gray;
-    display: inline;
-    clear: left;
+    /* display: inline;
+    clear: left; */
 }
 
 #hangman{
@@ -168,6 +171,12 @@ li{
     width: 250px;
   }
 
+  @media screen and (max width: 768px){
+      #navbar{
+          margin-top: 70px;
+          margin-left: 25%;
+      }
+  }
 
 /**
 
